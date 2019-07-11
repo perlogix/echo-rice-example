@@ -12,3 +12,5 @@
 *.out
 rice-box.go
 echo-rice-example
+
+.idea
