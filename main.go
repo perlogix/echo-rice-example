@@ -122,7 +122,7 @@ func getIndex(c echo.Context) error {
 
 func gc(c echo.Context) error {
 	debug.FreeOSMemory()
-	return c.HTML(200,"done")
+	return c.HTML(200, "done")
 }
 
 func main() {
